@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:meu_projeto_integrador/screens/home_screen.dart'; // Importar a tela principal
 import 'package:meu_projeto_integrador/screens/detail_screen.dart'; // Importar a tela de detalhes
+import 'package:meu_projeto_integrador/screens/item_list_screen.dart';
 
 void main() {
   runApp(const MyApp());
