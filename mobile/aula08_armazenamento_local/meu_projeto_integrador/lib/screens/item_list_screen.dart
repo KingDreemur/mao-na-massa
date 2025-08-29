@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:meu_projeto_integrador/models/item_model.dart';
-import 'package:meu_projeto_integrador/widgets/item_list_card.dart'; // Widget customizado para o item
+import 'package:meu_projeto_integrador/shared/widgets/organisms/product_list_card_organism.dart'; // Widget customizado para o item
 
 class ItemListScreen extends StatelessWidget {
   const ItemListScreen({super.key});
@@ -75,7 +75,7 @@ class ItemListScreen extends StatelessWidget {
         itemCount: _itens.length, // Número total de itens
         itemBuilder: (context, index) {
           final item = _itens[index];
-          return ItemListCard( // Usando o widget de item customizado
+          return ProductListCardOrganism( // Usando o widget de item customizado
             item: item,
             onTap: () {
               ScaffoldMessenger.of(context).showSnackBar(
