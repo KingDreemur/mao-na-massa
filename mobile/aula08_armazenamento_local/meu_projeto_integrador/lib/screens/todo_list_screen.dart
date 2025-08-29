@@ -129,8 +129,8 @@ class _TodoListScreenState extends State<TodoListScreen> {
             );
           }
         },
-        child: const Icon(Icons.add),
         tooltip: 'Adicionar Nova Tarefa',
+        child: const Icon(Icons.add),
       ),
     );
   }

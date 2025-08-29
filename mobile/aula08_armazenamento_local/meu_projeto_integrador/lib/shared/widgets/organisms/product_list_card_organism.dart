@@ -74,7 +74,7 @@ class ProductListCardOrganism extends StatelessWidget {
             ),
             const SizedBox(width: AppSpacings.small),
 
-            Align(
+            const Align(
               alignment: Alignment.centerRight,
               child: Icon(Icons.arrow_forward_ios, color: Colors.grey, size: 20, semanticLabel: 'Ver detalhes do produto'),
             ),
